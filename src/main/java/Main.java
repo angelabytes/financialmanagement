@@ -48,7 +48,7 @@ public class Main {
         CSVWriter.writeEmployeesToCSV(salesEmployees, "output_sales.csv");
 
         List<Employee> marketingEmployees = employees.stream()
-                .filter(e -> e.getDepartment().equals("marketing"))
+                .filter(e -> e.getDepartment().equals("Marketing"))
                 .collect(Collectors.toList());
         CSVWriter.writeEmployeesToCSV(marketingEmployees, "output_marketing.csv");
 
