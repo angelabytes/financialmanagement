@@ -56,11 +56,11 @@ public class Employee {
         this.salary = salary;
     }
 
-    public double getHourly_rate() {
+    public double getHourlyRate() {
         return hourly_rate;
     }
 
-    public void setHourly_rate(double hourly_rate) {
+    public void setHourlyRate(double hourly_rate) {
         this.hourly_rate = hourly_rate;
     }
 
@@ -75,4 +75,5 @@ public class Employee {
                 ", hourly_rate=" + hourly_rate +
                 '}';
     }
+
 }

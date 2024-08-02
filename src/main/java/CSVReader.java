@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.io.BufferedReader;
 
-public class CVSReader {
+public class CSVReader {
     public static List<Employee> readEmployeesFromCSV(String file) {
         List<Employee> employees = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(file))){

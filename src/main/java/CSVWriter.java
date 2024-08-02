@@ -15,7 +15,7 @@ public class CSVWriter {
                         e.getPosition(),
                         e.getDepartment(),
                         e.getSalary(),
-                        e.getHourly_rate()));
+                        e.getHourlyRate()));
                 bw.newLine();
             }
         } catch (IOException e) {
